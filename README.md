@@ -30,7 +30,7 @@ usage
             "dir": "~/tmp",
             "fileNamePrefix": "pad-backup_"
         },
-        "interval": 5 // update interval in seconds
+        "interval": 60 // update interval in seconds
     }
 ```
 
