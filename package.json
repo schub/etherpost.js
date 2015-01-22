@@ -5,7 +5,7 @@
     "main": "etherpost.js",
     "dependencies": {
         "wordpress-client": "0.5.2",
-        "config": "0.4.19"
+        "config": "1.10.0"
     },
     "keywords": [
         "wordpress",

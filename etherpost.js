@@ -1,15 +1,13 @@
-
-
 /* load modules */
-var config = require('config');
-http = require('http'),
-https = require('https'),
-fs = require('fs'),
-wpClient = require('wordpress-client').create({
-    url: config.wordpress.url,
-    username: config.wordpress.username,
-    password: config.wordpress.password
-});
+var config = require('config'),
+    http = require('http'),
+    https = require('https'),
+    fs = require('fs'),
+    wpClient = require('wordpress-client').create({
+        url: config.wordpress.url,
+        username: config.wordpress.username,
+        password: config.wordpress.password
+    });
 
 /** 
  * Api
