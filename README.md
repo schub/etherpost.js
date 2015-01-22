@@ -7,7 +7,7 @@ So we can have multiple users editing an wordpress-post simultaniously and updat
 
 
 general
-=======
+-------
 
 This is about to edit a post, not to create one. Create a posting and set its categories & tags in adavance and grab the post id. Only the ```post_content``` field is updated.
 
@@ -38,6 +38,17 @@ usage
 * set node environment ```export NODE_ENV=production``` (this is relevant to ```config/*.json```)
 * start app ```node etherpost.js```
 
+dev
+---
+
+*nodejs modules*
+
+* *wordpress-client*
+ * used to speak to wordpress xml-rpc api
+ * https://github.com/UsabilityDynamics/node-wordpress-client
+* *config*
+  * used to keep config files separated from code
+  * https://github.com/lorenwest/node-config
 
 why?
 ----

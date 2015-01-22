@@ -95,7 +95,9 @@ var App = {
             Api.loadSourceContent(config.sourceUrl, App.gotSourceContent);
         }
 
-        setInterval(update, config.interval);
+        update();
+
+        setInterval(update, config.interval * 1000);
     }
 };
 

@@ -10,5 +10,5 @@
         "dir": "~/tmp",
         "fileNamePrefix": "pad-backup_"
     },
-    "interval": 5000
+    "interval": 60
 }
