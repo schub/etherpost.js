@@ -1,0 +1,17 @@
+{
+    // source url fetched via http get
+    "sourceUrl": "http://pads.ccc.de/ep/pad/export/oObqO9ICpL/latest?format=txt",
+    // wordpress properties
+    "wordpress": {
+        "url": "https://netzpolitik.org/xmlrpc.php",
+        "username": "",
+        "password": "",
+        "postId": ""
+    },
+    // backup properties
+    "backup": {
+        "dir": "~/tmp",
+        "fileNamePrefix": "pad-backup_"
+    },
+    "interval": 5000
+}

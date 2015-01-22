@@ -1,0 +1,16 @@
+{
+    "name": "etherpost.js",
+    "description": "etherpost.js is a small tool that constantly updates a wordpress post with content loaded via http get.",
+    "version": "0.0.2",
+    "main": "etherpost.js",
+    "dependencies": {
+        "wordpress-client": "0.5.2",
+        "config": "0.4.19"
+    },
+    "keywords": [
+        "wordpress",
+        "xml-rpc",
+        "cli",
+        "shell"
+    ]
+}
