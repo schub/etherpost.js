@@ -15,7 +15,7 @@ This is about to edit a post, not to create one. Create a posting and set its ca
 usage
 -----
 
-* create a file ```config/production.js``` and adjust properties to your needs
+* create a file ```config/production.json``` and adjust properties to your needs
 
 ```
     {
@@ -30,7 +30,7 @@ usage
             "dir": "~/tmp",
             "fileNamePrefix": "pad-backup_"
         },
-        "interval": 5
+        "interval": 5 // update interval in seconds
     }
 ```
 
@@ -54,4 +54,3 @@ why?
 ----
 
 because https://github.com/wetterfrosch/etherpost#what-can-be-done
-
