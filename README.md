@@ -9,7 +9,24 @@ So we can have multiple users editing an wordpress-post simultaniously and updat
 usage
 -----
 
-Set your app properties in ```config/production.js``` (copy default.js).
+Set your app properties in ```config/production.js```
+
+```
+    {
+        "sourceUrl": "http://pads.ccc.de/ep/pad/export/oObqO9ICpL/latest?format=txt",
+        "wordpress": {
+            "url": "https://netzpolitik.org/xmlrpc.php",
+            "username": "",
+            "password": "",
+            "postId": ""
+        },
+        "backup": {
+            "dir": "~/tmp",
+            "fileNamePrefix": "pad-backup_"
+        },
+        "interval": 5000
+    }
+```
 
 after download run
 ```
@@ -22,4 +39,5 @@ after download run
 why?
 ----
 
-please see here: https://github.com/wetterfrosch/etherpost
+because https://github.com/wetterfrosch/etherpost#what-can-be-done
+
