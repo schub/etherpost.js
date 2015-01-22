@@ -9,9 +9,10 @@ So we can have multiple users editing an wordpress-post simultaniously and updat
 usage
 -----
 
-Set your app properties in ```config/production.js```
+* download repository
+* Set your app properties in ```config/production.js```
 
-```
+* ```
     {
         "sourceUrl": "http://pads.ccc.de/ep/pad/export/oObqO9ICpL/latest?format=txt",
         "wordpress": {
@@ -27,8 +28,8 @@ Set your app properties in ```config/production.js```
         "interval": 5000
     }
 ```
+* run
 
-after download run
 ```
     npm install
     export NODE_ENV=production
