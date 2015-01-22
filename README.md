@@ -12,7 +12,7 @@ usage
 * download repository
 * Set your app properties in ```config/production.js```
 
-* ```
+```
     {
         "sourceUrl": "http://pads.ccc.de/ep/pad/export/oObqO9ICpL/latest?format=txt",
         "wordpress": {
@@ -28,6 +28,7 @@ usage
         "interval": 5000
     }
 ```
+
 * run
 
 ```
